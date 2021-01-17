@@ -8,7 +8,7 @@ basic_auth = BasicAuth(app)
 
 @app.route("/")
 def hello():
-    return "Hello World Ronald !"
+    return "Hello World Ronald "
 
 @app.route('/multiply')
 def multiply():
